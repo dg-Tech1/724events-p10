@@ -1,4 +1,4 @@
-export const MONTHS = {
+export const MONTHS = {  
   1: "janvier",
   2: "février",
   3: "mars",
@@ -13,4 +13,4 @@ export const MONTHS = {
   12: "décembre",
 };
 
-export const getMonth = (date) => MONTHS[date.getMonth()];
+export const getMonth = (date) => MONTHS[date.getMonth() +1]; 
