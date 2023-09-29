@@ -130,6 +130,7 @@ p {
   top: -32px;
   background-color: white;
   width: 100%;
+  overflow: hidden;  /* Si le contenu de .SliderContainer est plus grand que le conteneur lui-même, le contenu excédant sera masqué après avoir ajouté overflow: hidden */
 }
 
 footer {
